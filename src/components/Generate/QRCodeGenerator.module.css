@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 100px 200px;
+}
+
+.qrWrapper svg path:last-child {
+  fill: rgb(33, 93, 123);
+}
+
+.input {
+  background: rgb(33, 93, 123);
+  color: #fff;
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.button {
+  background: rgb(33, 93, 123);
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  width: 400px;
+  height: 50px;
+  border-radius: 16px;
+}
